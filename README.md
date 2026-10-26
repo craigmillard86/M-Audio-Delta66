@@ -68,5 +68,7 @@ Driver messages: `/usr/bin/log show --last boot --predicate 'sender contains "En
 
 ## License
 
-Not yet decided. The upstream driver carries no license file, and the Delta 66 code is ported
-from ALSA sources, which are GPL-2.0-or-later.
+GPL-2.0-or-later; see [LICENSE](LICENSE). The Delta 66 code is ported from the ALSA ICE1712
+driver (GPL-2.0-or-later), and the files in `reference/alsa/` keep their original SPDX headers.
+The upstream Envy24 driver this builds on has no license file of its own, so its original
+copyright and terms remain with its authors.
