@@ -11,9 +11,9 @@ source of truth for registers, GPIO bits and codec sequences.
 |---|---|
 | Analog out 1-4, analog in 1-4 | Working (outputs 1-4 and inputs 1/2 verified by ear; inputs 3/4 only seen at the noise floor) |
 | 44.1 / 48 kHz | Working (measured) |
-| 88.2 / 96 kHz | Capture rate measured correct; playback not yet listened to |
+| 88.2 / 96 kHz | Capture rate measured correct; playback at 96 kHz confirmed working by the user |
 | 0.5 dB level controls, device name | Built and loaded; sliders not yet checked in Audio MIDI Setup |
-| S/PDIF out (outputs 5/6) | Built; needs a receiver to verify |
+| S/PDIF out (outputs 5/6) | Built; user reports S/PDIF running (direction not specified) |
 | S/PDIF in (inputs 5/6), Clock Source selector | Built; needs a live S/PDIF source to verify |
 | Delta 66 rev E | Analog only (4 in / 4 out); CS8427 not set up. Untested, no hardware |
 | Hardware monitoring (digital mixer) | Not implemented |

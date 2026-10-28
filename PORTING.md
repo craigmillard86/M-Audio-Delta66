@@ -447,4 +447,7 @@ handling with codec reset was already in `Delta66_set_rate_val`.
   change); Internal rewrites the rate register without the bit. `performFormatChange` keeps the
   bit while S/PDIF is master. Rate-bit/DFS follow the incoming signal's rate, so the
   sample rate set in Core Audio must match the source.
-- Status: built, **untested on hardware** (needs a live S/PDIF source).
+- Status: built. User reports S/PDIF support running and 96 kHz playback working (2026-10-28,
+  user report, no measurements; which S/PDIF direction and whether the Clock Source selector
+  was exercised were not stated). Still to confirm: inputs 5/6 with a live source, the Clock
+  Source switch, and 88.2 kHz playback.
